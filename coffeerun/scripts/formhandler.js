@@ -1,10 +1,9 @@
 (function (window) {
     'use strict';
-    var FORM_SELECTOR='[data-coffee-order="form"]';
     var App = window.App || {};
     var $ = window.jQuery;
 
-    function FormHandler() {
+    function FormHandler(selector) {
         if (!selector) {
             throw new Error('No selector provided');
         }
