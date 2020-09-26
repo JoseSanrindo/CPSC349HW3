@@ -26,5 +26,5 @@
     window.App = App;
 })(window);
 
-var dsOne=new App.DataStore();
-var dsTwo=new App.DataStore();
+var dsOne = new App.DataStore();
+var dsTwo = new App.DataStore();
