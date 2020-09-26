@@ -25,3 +25,6 @@
     App.DataStore = DataStore;
     window.App = App;
 })(window);
+
+var dsOne=new App.DataStore();
+var dsTwo=new App.DataStore();
